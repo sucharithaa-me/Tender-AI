@@ -1,10 +1,14 @@
 # System Architecture
 
 User
+
 ↓
+
 React Frontend
+
 ↓
 Spring Boot Backend
+
 ↓
 PostgreSQL
 

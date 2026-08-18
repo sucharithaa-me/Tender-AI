@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+/* Buttons */
+
+button {
+  cursor: pointer;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  background: #7c3aed;
+  color: white;
+}
+
+button:hover {
+  background: #6d28d9;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #111827;
+}
+
+.navbar h1 {
+  margin: 0;
+  padding: 10px 20px;
+  border: 2px solid #7c3aed;
+  color: #9774ff;
+  font-family: "Lucida Console", "Courier New", monospace;
+  border-radius: 10px;
+  line-height: 1;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+/* Hero */
+
+.hero-section {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-section h1 {
+  font-size: 52px;
+  margin-bottom: 20px;
+  color: #f8fafc;
+}
+
+.hero-section p {
+  max-width: 650px;
+  margin: 0 auto 30px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #cbd5e1;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Features */
+
+.features-section {
+  padding: 80px 60px;
+  text-align: center;
+  background: #111827;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.feature-card {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.feature-card h3 {
+  color: #a78bfa;
+}
+
+.feature-card p {
+  color: #cbd5e1;
+}
+
+/* How It Works */
+
+.how-section {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* CTA */
+
+.cta-section {
+  text-align: center;
+  padding: 80px 20px;
+  background: #1e1b4b;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 40px;
+  background: #020617;
+  color: #94a3b8;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero-section {
+    padding: 60px 20px;
+  }
+
+  .hero-section h1 {
+    font-size: 36px;
+  }
+
+  .hero-section p {
+    font-size: 16px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features-section {
+    padding: 60px 20px;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .how-section {
+    padding: 60px 20px;
+  }
+
+  .steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}

@@ -1,0 +1,46 @@
+have a collection of reusable UI components
+A component is a reusable piece of UI.
+React is a JavaScript library for building user interfaces using reusable components.
+Single Page Applications (SPAs).
+React keeps a lightweight representation of the UI and uses it to determine what needs to change(VDOM)
+
+React = UI library
+
+React
+  ↓
+Build UI
+
+Vite
+  ↓
+Set up + run + build the React project
+
+JSX lets us write HTML-like syntax inside JavaScript.
+
+A component should return one parent element.
+
+
+A component is the JavaScript function itself
+
+And Router works with the components, not the files themselves
+
+
+
+------------------------------------------------------------------------------------------------
+
+User types "a"
+     ↓
+onChange 🔔
+     ↓
+handleEmailChange()
+
+User types "b"
+     ↓
+onChange 🔔
+     ↓
+handleEmailChange()
+
+User types "c"
+     ↓
+onChange 🔔
+     ↓
+handleEmailChange()
